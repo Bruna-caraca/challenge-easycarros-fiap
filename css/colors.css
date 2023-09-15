@@ -1,0 +1,9 @@
+:root {
+    --color-blue: #03C;
+    --color-blue-light: #F0F2F7;
+    --color-gray: #888;
+    --color-white: #fff;
+    --color-border: rgba(136, 136, 136, 0.21);
+    --color-shadow: rgba(0, 0, 0, 0.25);
+    --color-aqua: #0BDBC1;
+}

@@ -1,0 +1,95 @@
+@import url(../css/colors.css);
+
+.stepper-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.stepper-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+}
+
+.stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid var(--color-gray);
+    width: 100%;
+    top: 20px;
+    left: -50%;
+    z-index: 2;
+}
+
+.stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid var(--color-gray);
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 2;
+}
+
+.stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-gray);
+    margin-bottom: 6px;
+}
+
+.stepper-item.completed .step-counter {
+  background-color: var(--color-blue);
+  
+}
+
+.stepper-item.completed::after {
+    position: absolute;
+    content: "";
+    border-bottom: 4px solid var(--color-blue);
+    width: 100%;
+    top: 20px;
+    left: 50%;
+    z-index: 3;
+}
+
+.stepper-item:first-child::before {
+  content: none;
+}
+.stepper-item:last-child::after {
+  content: none;
+}
+
+.completed .step-name, .active .step-name {
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.step-counter {
+    color: var(--color-white);
+}
+
+.active .step-counter {
+    background-color: var(--color-blue);
+}
+
+.step-name {
+  color: var(--color-gray);
+
+  @media (max-width: 768px) {
+    visibility: hidden;
+  }
+}

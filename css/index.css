@@ -1,0 +1,146 @@
+@import url(../css/colors.css);
+
+*, p {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carros {
+    display: flex !important;
+}
+
+.div-main button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    width: 10.6rem;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.div-main {
+    width: 24.3rem;
+    height: 27.7rem; 
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    background: var(--color-white);
+    box-shadow: 2px 2px 4px 0px var(--color-shadow);
+    padding: 32px;
+    margin: 32px 10px 32px 30px;
+    
+    @media (max-width: 1300px) {
+        width: 27rem;
+    }
+}
+
+.title-card {
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 20px;
+} 
+
+.tipo {
+    align-items: center;
+    color: var(--color-gray);
+}
+
+.tipo img {
+    margin: 0 8px 0 0;
+}
+
+.price {
+    margin: 12px 0;
+    background-color: var(--color-blue-light);
+    width: 20.25rem;
+    height: 5.8rem;
+    border-radius: 12px;
+    padding: 8px;
+
+    @media (max-width: 1300px) {
+        width: 23rem;
+    }
+}
+
+.blue {
+    color: var(--color-blue);
+    font-weight: 800;
+    
+}
+
+.gray {
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
+.price-text {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.detalhes {
+    color: var(--color-blue);
+    font-size: 14px;
+    text-decoration-line: underline;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.breadcrumb-item a{
+    text-decoration: none !important;
+    color: var(--color-blue);
+}
+
+.breadcrumb-item .active{
+    color: var(--color-gray);
+}
+
+.navbar {
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(136, 136, 136, 0.21);
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.nav-link {
+    color: var(--color-gray);
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.nav-link:hover {
+    color: var(--color-blue);
+    font-weight: bold;
+}
+
+.navbar-brand {
+    margin-left: 3.5em;
+}
+
+.login {
+    display: flex;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.login p {
+    margin-right: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body .div-main {
+    width: 264px;
+    height: 311px;
+    padding: 16px 0;
+}
+
+.car {
+    justify-content: center;
+    margin: 27px 0;
+}
+
