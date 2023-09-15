@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/stepper.css">
+    <title>Easy Carros</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../images/logo-easy-aluguel.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Alugar um carro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Para Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quero alugar meu veículo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Atendimento</a>
+                        </li>
+                    </ul>
+                    <div class="login">
+                        <p class="blue">Entrar</p>
+                        <img src="../images/login-icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb container">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Reserva</li>
+        </ol>
+    </nav>
+    <div class="container stepper-wrapper">
+        <div class="stepper-item completed">
+            <div class="step-counter">✓</div>
+            <div class="step-name">Localização e Data</div>
+        </div>
+        <div class="stepper-item active">
+            <div class="step-counter">2</div>
+            <div class="step-name">Grupo de Veículos</div>
+        </div>
+        <div class="stepper-item">
+            <div class="step-counter">3</div>
+            <div class="step-name">Resumo da Reserva</div>
+        </div>
+        <div class="stepper-item">
+            <div class="step-counter">4</div>
+            <div class="step-name">Identificação</div>
+        </div>
+    </div>
+    <div class="carros container ">
+        <div class="row row-cols-auto d-flex justify-content-center">
+            <!-- Carro 1 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Fiat Mobi</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Easy Carros</span>
+                    <img src="../images/verificado-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/fiat-mobi.png" alt="Fiat Mobi">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">75,90</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button>Alugar</button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+            <!-- Carro 2 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Volkswagen Gol 1.0</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Parceiro</span>
+                    <img src="../images/partner-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/vw-gol.png" alt="Volkswagen Gol 1.0">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">83,90</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button>Alugar</button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+            <!-- Carro 3 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Renault Logan</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Easy Carros</span>
+                    <img src="../images/verificado-icon.png">
+                    <span>Veículo Parceiro</span>
+                    <img src="../images/partner-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/renault-logan.png" alt="Renault Logan">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">109,58</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#modalEscolha">
+                        Alugar
+                    </button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+            <!-- Carro 4 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Hyundai HB20 1.0</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Easy Carros</span>
+                    <img src="../images/verificado-icon.png">
+                    <span>Veículo Parceiro</span>
+                    <img src="../images/partner-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/hyundai-hb20.png" alt="Hyundai HB20 1.0">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">117,90</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button>Alugar</button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+            <!-- Carro 5 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Audi A3</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Easy Carros</span>
+                    <img src="../images/verificado-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/audi-a3.png" alt="Audi A3">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">235,90</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button>Alugar</button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+            <!-- Carro 6 -->
+            <div class="div-main">
+                <h3 class="title-card text-center">Fiat Toro</h3>
+                <div class="tipo text-center">
+                    <span>Veículo Parceiro</span>
+                    <img src="../images/partner-icon.png">
+                </div>
+                <div class="text-center">
+                    <img src="../images/fiat-toro.png" alt="Fiat Toro">
+                </div>
+                <div class="price text-center">
+                    <p class="gray">A partir de</p>
+                    <div>
+                        <span class="blue">R$</span>
+                        <span class="blue price-text">237,85</span>
+                        <span class="gray">/dia</span>
+                    </div>
+                    <p class="gray">* Proteções e taxas não inclusas</p>
+                </div>
+                <div class="text-center">
+                    <button>Alugar</button>
+                    <p class="detalhes">Mostrar Detalhes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" tabindex="-1" id="modalEscolha" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="blue modal-title fs-5">Para este veículo temos as opções:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex text-center justify-content-center">
+                    <div class="div-main">
+                        <p class="blue">
+                            Veículo Easy Carros
+                            <a href="#" data-bs-toggle="tooltip" title="Veículo da locadora">
+                                <img src="../images/info-icon.png">
+                            </a>
+                        </p>
+                        <img class="car" src="../images/logan-easy-carros.png">
+                        <button>Escolher</button>
+                    </div>
+                    <div class="div-main">
+                        <p class="blue">
+                            Veículo Parceiro
+                            <a href="#" data-bs-toggle="tooltip" title="Veículo disponibilizado por pessoa física">
+                                <img src="../images/info-icon.png">
+                            </a>
+                        </p>
+                        <img class="car" src="../images/logan-partner.png">
+                        <button>Escolher</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
