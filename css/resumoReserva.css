@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+.veiculo {
+    height: 328px;
+}
+
 .plano-item {
     display: flex;
     border-radius: 12px;
@@ -92,8 +96,9 @@
     background-clip: padding-box;
 }
 
-div {
-    text-align: center;
+.qty {
+    width: 90px;
+    margin-left: 12px;
 }
 
 input{  
@@ -109,5 +114,45 @@ input::-webkit-inner-spin-button {
 
 input:disabled{
     color:var(--color-gray);
+    background-color: var(--color-white);
 }
          
+.valor-total {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: var(--color-blue);
+    box-shadow: 2px 2px 4px 0px var(--color-shadow);
+    width: 390px;
+    height: 141px;
+    color: var(--color-white);
+    margin-left: 30px;
+    padding: 18px;
+    align-items: end;
+}
+
+.button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    padding: 16px;
+    width: 390px;
+    height: 53px;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-top: 28px;
+    font-weight: bold;
+}
+
+.valor-title {
+    font-size: 18px;
+}
+
+.valor {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.parcela {
+    font-size: 16px;
+}
