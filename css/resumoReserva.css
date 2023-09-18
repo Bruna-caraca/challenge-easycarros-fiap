@@ -156,3 +156,15 @@ input:disabled{
 .parcela {
     font-size: 16px;
 }
+
+.resumo-item {
+    margin: 24px;
+}
+
+.resumo-item .detalhes {
+    margin: 0;
+}
+
+.div-resumo {
+    height: 630px;
+}
