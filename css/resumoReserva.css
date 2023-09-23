@@ -63,7 +63,7 @@
     border: solid 2px var(--color-blue);
 }
 
-.qty .count {
+.qty .count, .qty .count1, .qty .count2 {
     display: inline-block;
     vertical-align: top;
     font-size: 18px;
@@ -74,7 +74,7 @@
     text-align: center;
     margin-left: 0;
 }
-.qty .plus {
+.qty .plus, .qty .plus1, .qty .plus2 {
     cursor: pointer;
     display: inline-block;
     vertical-align: top;
@@ -84,7 +84,7 @@
     font: 23px/1 Arial,sans-serif;
     text-align: center;
     }
-.qty .minus {
+.qty .minus, .qty .minus1, .qty .minus2 {
     cursor: pointer;
     display: inline-block;
     vertical-align: top;
